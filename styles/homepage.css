@@ -145,3 +145,40 @@ main {
   flex: 40%;
   margin-top: 3%;
 }
+
+.footer-top {
+  background: #44454d;
+  border: 3px solid white;
+  display: flex;
+  height: 150px;
+  font-size: 35px;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  border-bottom: 2px solid #8d8b8b ;
+  border-top: 2px solid #8d8b8b ;
+  
+}
+
+.card {
+  color: white;
+  padding: 53px 60px;
+  text-decoration: none;
+  border: none;
+  border-right: 2px solid #8d8b8b;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.card:last-child {
+  border-right: none;
+}
+
+
+.footer-down {
+  background: #131416;
+  display: flex;
+  height: 150px;
+}
