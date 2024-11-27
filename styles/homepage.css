@@ -81,3 +81,67 @@ body {
       
   
 }
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  height: 950px;
+  background-color: #2d2f37;
+  /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+  /* https://css-tricks.com/almanac/properties/b/box-shadow/ */
+  box-shadow: inset -200px 0px 200px -20px rgba(0,0,0,1); 
+
+}
+
+.main-left {
+  flex: 50%;
+  margin-top: 1px;
+  margin-left: 3%;
+}
+
+.main-top {
+  color: #c3c4c7;
+  font-size: 60px;
+  margin-down: 1%;
+
+}
+
+.main-left p {
+  color: #c3c4c7;
+  font-size: 60px;
+}
+
+
+
+#button-sign-up {
+  background-color: #4bce79;
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+  padding: 40px 40px;
+  margin-right: 30px;
+  border-radius: 3%;
+}
+
+.main-top span {
+
+  color: white;
+  text-decoration: none;
+  font-size: 70px;
+
+}
+
+#btaop {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  padding: 40px 70px;
+  border-radius: 3%;
+}
+
+.main-right {
+  color: white;
+  flex: 40%;
+  margin-top: 3%;
+}
